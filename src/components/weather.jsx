@@ -37,8 +37,8 @@ function Weather() {
       <div className='backdrop-blur bg-blue/60 ... brightness-150 gap-10  w-auto p-8 h-auto border   border-white mt-16  flex-col flex justify-center items-center sm:'>
 
         <div className="sm:flex flex-nowrap" >
-          <input type="text" placeholder='enter city' className=' border  p-1 gap-2   rounded-2xl outline-none  ' onChange={getdata} />
-          <button className=' border-black bg-black text-white p-2 ml-3 rounded-2xl hover:bg-green-700' onClick={getweather}> <FaSearch /></button>
+          <input type="text" placeholder='enter city' className=' border  p-1 gap-2    rounded-2xl outline-none  ' onChange={getdata} />
+          <button className=' border-black bg-black text-white p-2 ml-1 rounded-2xl hover:bg-green-700' onClick={getweather}> <FaSearch /></button>
         </div>
         <div className="font-bold  gap-6 flex flex-col items-center  leading-10 text-black">
           <p className="font-bold text-2xl mt-4 ">{city}</p>
